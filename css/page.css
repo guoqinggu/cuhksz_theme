@@ -5,9 +5,8 @@
  **********************************************************/
 
 body {
-  padding: 0 10px;
+  padding: 0;
   margin: 0;
-  background-color: #528544;
 }
 	
 /**********************************************************
@@ -28,7 +27,7 @@ body {
  * Fixed widths use pixels,       e.g. 960px
  */
 #container {
-  width: 85%;
+  width: 100%;
   min-width: 960px;
   background-color: #ffffff;
 }
@@ -50,7 +49,9 @@ body {
  *                 Header Elements
  **********************************************************/
 /* #header wraps #branding and #header-blocks. */
-#header {}
+#header {
+  border-top: 5px solid #633869;
+}
 
 /* #branding wraps #logo, #site-name and #site-slogan. */
 #branding {
@@ -196,10 +197,16 @@ ol.search-results .search-info {}
  *                Footer, RSS Feed Icon
  **********************************************************/
 #footer {
+  background-color: #2e2d2f;
   margin: 0.375em 0;
 }
 
-#footer .region {}
+#footer .region {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  color: #9b9b9b;
+}
 
 .feed-icon {}
 .feed-icon img {
