@@ -7,6 +7,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: "Microsoft YaHei", "微软雅黑", Avenir Next, Times, Helvetica, Tahoma, Arial, STXihei, "华文细黑", sans-serif;
 }
 	
 /**********************************************************
@@ -64,7 +65,8 @@ body {
 } 
 
 /* Logo and site_name wrapper. */
-.logo-site-name {}
+.logo-site-name {
+}
 div.logo-site-name,
 h1.logo-site-name  {}
 
@@ -92,6 +94,39 @@ h1.logo-site-name  {}
 
 /* Site slogan. */
 #site-slogan {}
+
+#block-menu-menu-top-menu.block {
+  margin: 0;
+}
+#block-menu-menu-top-menu h2 {
+  display: none;
+}
+
+#block-menu-menu-top-menu ul.menu li {
+  margin: 0;
+  padding: 0 15px;
+  float: left;
+  list-style-image: none;
+  list-style-type: none;
+  border-right: solid 1px #726f73;
+  line-height: 1.1;
+  font-size: 13px;
+}
+
+
+#block-menu-menu-top-menu ul.menu li.first {
+  padding-left: 0;
+}
+
+#block-menu-menu-top-menu ul.menu li.last {
+  padding-right: 0;
+  border-right: none;
+}
+#block-menu-menu-top-menu a {
+  color: #726f73;
+  text-decoration: none;
+}
+
 
 
 /**********************************************************
